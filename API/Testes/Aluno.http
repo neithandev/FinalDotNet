@@ -1,0 +1,11 @@
+###
+GET https://localhost:7052/aluno/listar
+
+###
+POST https://localhost:7052/aluno/cadastrar
+Content-Type: application/json
+
+{
+    "Nome": "Pedro",
+    "DataNascimento":"13/08/2004"
+}

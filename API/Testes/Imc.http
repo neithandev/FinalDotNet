@@ -1,0 +1,24 @@
+###CADASTRAR IMC
+POST https://localhost:7052/imc/cadastrar
+Content-Type: application/json
+
+{
+    "Metros": 1.8,
+    "Peso": 75,
+    "AlunoId": 1
+}
+
+### LISTAR IMC
+GET https://localhost:7052/imc/listar
+
+
+### ALTERAR IMC
+PUT https://localhost:7052/imc/alterarimc/1
+Content-Type: application/json
+
+{
+    "Metros": 1.7,
+    "Peso": 63,
+    "AlunoId": 1
+}
+
